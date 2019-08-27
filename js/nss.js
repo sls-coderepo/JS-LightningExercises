@@ -8,13 +8,12 @@ const nashvilleSoftwareSchool = {
     address: "500 Interstate Blvd. S"
 }
 
-for (let i = 0; i < nashvilleSoftwareSchool.instructors.partTime.length; i++){
-    console.log(`PartTime Instructors: ${nashvilleSoftwareSchool.instructors.partTime[i]}`)
-}
+let fullTimeInstructors = nashvilleSoftwareSchool.instructors.fullTime;
+let partTimeInstructors = nashvilleSoftwareSchool.instructors.partTime;
 
-for (let i = 0; i < nashvilleSoftwareSchool.instructors.fullTime.length; i++){
-    console.log(`FullTime Instructors: ${nashvilleSoftwareSchool.instructors.fullTime[i]}`)
-}
+console.log(`Part Time Instructors: ${partTimeInstructors}`)
+console.log(`Full Time Instructors: ${fullTimeInstructors}`)
 
-console.log(`Fulltime Instructor: ${nashvilleSoftwareSchool.instructors.fullTime[4]}`)
-console.log(`Parttime Instructor: ${nashvilleSoftwareSchool.instructors.partTime[0]}`)
+
+console.log(`Fulltime Instructor: ${fullTimeInstructors[4]}`)
+console.log(`Parttime Instructor: ${partTimeInstructors[0]}`)
