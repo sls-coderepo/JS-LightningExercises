@@ -19,25 +19,25 @@ const familyMembers = [
         memberType: "Father",
         fName: "Kishor",
         lName: "Shrestha",
-        age: 38,
+        
     },
     {
         memberType: "Mother",
         fName: "Shirish",
         lName: "Shrestha",
-        age: 35,
+        
     },
     {
         memberType: "Son",
         fName: "Shrijan",
         lName: "Shrestha",
-        age: 11,
+       
     },
      {
         memberType: "Son",
         fName: "Mrinav",
         lName: "Shrestha",
-        age: 9,
+      
     },
     ]
 
